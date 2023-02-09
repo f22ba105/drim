@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイページ</title>
+    <style>
+    #test {
+        background: rgb(255, 255, 255);
+        height: 100px;
+        width: 100px;
+    }
+    #R {
+        background: rgb(250, 235, 166)
+    }
+    #L {
+        background: rgb(250, 235, 166)
+    }
+    #k {
+        background: rgb(250, 235, 166);
+        height: 40px;
+        width: 30px
+    }
+    #d {
+        background: rgb(255, 255, 255);
+        height: 300px;
+        width: 200px;
+    }
+    #Ru{
+        background: rgb(250, 235, 166);
+        height: 200px;
+    }
+    #Lu{
+        background: rgb(250, 235, 166);
+        height: 200px;
+    }
+    #Ra {
+        background:rgb(250, 235, 166);
+        height: 30px;
+    }
+    #La {
+        background:rgb(250, 235, 166);
+        height: 30px;
+    }
+    #Ma {
+        background:rgb(255, 255, 255);
+        height: 1px;
+        width: 0.5px;
+    }
+    </style>
+    <script>
+        function sta() {
+        alert("ログインしますか？？？");
+        location.href = '1.html';
+    }
+    </script>
+</head>
+<body>
+    <div style="text-align: center">
+        <input id="R" type="button">
+        <input id="test" type="button" value="ログインクン" >
+        <input id="L" type="button">
+    </div>
+    <div style="text-align: center">
+        <input id="k" type="button">
+    </div>
+    <div style="text-align: center">
+        <input id="Ru" type="button">
+        <input id="d" type="button" value="adi〇as">
+        <input id="Lu" type="button">
+    </div>
+    <div style="text-align: center">
+        <input id="Ra" type="button">
+        <input id="Ma" type="button" onclick="sta()">
+        <input id="La" type="button">
+        <form name="login_form">
+            <div class="login_form_top">
+              <h1>LOGIN</h1>
+              <p>UserID、Passwordをご入力の上、「LOGIN」ボタンをクリックしてください。</p>
+            </div>
+            <div class="login_form_btm">
+              <input type="id" name="user_id" placeholder="UserID">
+              <input type="password" name="password" placeholder="Password">
+              <input type="submit" name="botton" value="LOGIN">
+            </div>
+          </form>
+</body>
+</html>
